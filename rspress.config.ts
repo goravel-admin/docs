@@ -2,6 +2,7 @@ import * as path from "path";
 import { defineConfig } from "rspress/config";
 
 export default defineConfig({
+  base: "/docs/",
   root: path.join(__dirname, "docs"),
   title: "GoravelAdmin",
   description: "GoravelAdmin",
