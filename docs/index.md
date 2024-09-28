@@ -4,7 +4,7 @@ pageType: home
 hero:
   name: GoravelAdmin
   text: 快速出活
-  tagline:  基于 Goravel + amis (React) 的后台开发框架
+  tagline:  基于 Goravel + amis (React) 的后台开发框架 [WIP中少许可用]
   actions:
     - theme: brand
       text: 快速开始
