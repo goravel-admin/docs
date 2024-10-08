@@ -6,8 +6,8 @@
   },
   {
     "text": "常见问题",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "link": "/faq/index-blank",
+    "activeMatch": "/faq/"
   },
   {
     "text": "更新日志",
