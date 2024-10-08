@@ -1,0 +1,4 @@
+---
+footer: false
+sidebar: false
+---
