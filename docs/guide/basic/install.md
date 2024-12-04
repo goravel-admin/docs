@@ -2,10 +2,6 @@
 
 ## 环境
 
-- PHP >= `8.2`
-- Laravel >= `11.*`
-
-
 
 ## 开始安装
 
@@ -39,7 +35,7 @@ DB_PASSWORD=
 ```
 
 :::warning{title=注意}
-如果你使用的是 laravel 11 的话 
+如果你使用的是 laravel 11 的话
 还需要执行 `php artisan install:api`
 :::
 
@@ -66,9 +62,9 @@ php artisan admin:install
 ```
 
 :::info Tips
-执行这一步命令可能会报以下错误 `Specified key was too long ... 767 bytes` 
+执行这一步命令可能会报以下错误 `Specified key was too long ... 767 bytes`
 
-如果出现这个报错，需手动修改配置文件: 
+如果出现这个报错，需手动修改配置文件:
 
 ```diff title="config/database.php"
 'mysql'=>[
@@ -78,7 +74,7 @@ php artisan admin:install
 ]
 ```
 
-然后删除掉数据库中的所有数据表，再重新运行一遍 `php artisan admin:install` 
+然后删除掉数据库中的所有数据表，再重新运行一遍 `php artisan admin:install`
 :::
 
 
